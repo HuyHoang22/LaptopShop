@@ -1,0 +1,135 @@
+:root {
+    --primary-color: #EE4D2D;
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+    --boder-color: #bdbdbd;
+
+}
+
+.draw_border{
+    width: 500px;
+    height: 700px;
+    border: 2px solid black;
+}
+.auth-form {
+    width: 500px;
+}
+.auth-form_container {
+    padding: 0px 32px;
+}
+
+.auth-form_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.auth-form_heading {
+    font-size: 2.2rem;
+    font-weight: 400;
+}
+.auth-form_switch-btn {
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: var(--primary-color);
+    cursor: pointer;
+}
+.auth-form_form {
+    
+}
+.auth-form_input {
+    width: 100%;
+    height: 40px;
+    margin-top: 16px;
+    padding: 0 12px;
+    font-size: 1.4rem;
+    border-radius: 2px;
+    border: 1px solid var(--boder-color);
+    outline: none;
+}
+.auth-form_input:focus {
+    border-color: #888;
+}
+.auth-form_aside {
+     margin-top: 18px;
+}
+.auth-form_policy-text {
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    text-align: center;
+}
+.auth-form__text-link {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+.auth-form_controls {
+    margin-top: 80px;
+    display: flex;
+    justify-content: flex-end;
+
+}
+.auth-form_control-back {
+    margin-right: 8px;
+}
+.auth-form_socials {
+    background-color: #f5f5f5;
+    padding: 12px 36px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+}
+
+
+
+
+
+.auth-form_controls .btn {
+    min-width: 142px;
+    height: 34px;
+    text-decoration: none;
+    border: none;
+    border-radius: 2px;
+    font-size: 1.5rem;
+    padding: 0;
+    outline: none;
+    cursor: pointer;
+    color: var(--text-color);
+    align-items: center;
+    justify-content: center;
+}
+.auth-form_controls .btn.btn--normal {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.btn.btn--size-s {
+    height: 32px;
+    font-size: 12px;
+    text-decoration: none;
+}
+.auth-form_controls .btn:hover{
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.auth-form_controls .btn.btn-primary{
+    color: var(--white-color);
+    background-color: var(--primary-color);
+}
+.auth-form_controls .btn.btn-disabled {
+    cursor: default;
+    background-color: #999;
+}
+
+.auth-form_socials-icon {
+    font-size: 1.8rem;
+}
+.auth-form_socials--facebook{
+    color: var(--white-color);
+    background-color: #3a5a98;
+}
+.auth-form_socials--google{
+    color: black;
+    background-color: white;
+}
+.auth-form_socials--facebook .auth-form_socials-icon {
+    color: var(--white-color);
+}
